@@ -1,6 +1,3 @@
-# fitness
-This will give an example on how the new modules work in combination with the Service Loader API. I've targetted Java 11.
-
 # Fitness
 
 Fitness is an example on how to use the Service Loader API combined with modules and maven.
