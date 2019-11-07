@@ -1,6 +1,6 @@
-package generation.running;
+package com.continuum.generation.running;
 
-import generation.spi.GenerationService;
+import com.continuum.generation.spi.GenerationService;
 
 /**
  * @author dj

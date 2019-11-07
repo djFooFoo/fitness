@@ -1,4 +1,4 @@
-package generation.spi;
+package com.continuum.generation.spi;
 
 /**
  * @author dj

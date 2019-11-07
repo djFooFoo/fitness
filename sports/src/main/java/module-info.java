@@ -1,11 +1,11 @@
-import generation.fitness.FitnessFactory;
-import generation.running.RunningFactory;
+import com.continuum.generation.fitness.FitnessFactory;
+import com.continuum.generation.running.RunningFactory;
 
-module generation.sports {
-	requires generation.exercise;
+module com.continuum.generation.sports {
+	requires com.continuum.generation.exercise;
 
-	exports generation.fitness;
-	exports generation.running;
+	exports com.continuum.generation.fitness;
+	exports com.continuum.generation.running;
 
-	provides generation.spi.GenerationService with FitnessFactory, RunningFactory;
+	provides com.continuum.generation.spi.GenerationService with FitnessFactory, RunningFactory;
 }

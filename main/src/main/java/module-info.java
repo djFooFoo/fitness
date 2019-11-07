@@ -1,7 +1,7 @@
-import generation.spi.GenerationService;
+import com.continuum.generation.spi.GenerationService;
 
-module generation.main {
-	requires generation.exercise;
+module com.continuum.generation.main {
+	requires com.continuum.generation.exercise;
 
 	uses GenerationService;
 }

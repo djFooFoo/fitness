@@ -1,7 +1,7 @@
-package generation.fitness;
+package com.continuum.generation.fitness;
 
-import generation.spi.Level;
-import generation.spi.Schedule;
+import com.continuum.generation.spi.Level;
+import com.continuum.generation.spi.Schedule;
 
 /**
  * @author dj

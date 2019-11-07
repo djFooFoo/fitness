@@ -1,3 +1,3 @@
-module generation.exercise {
-	exports generation.spi;
+module com.continuum.generation.exercise {
+	exports com.continuum.generation.spi;
 }

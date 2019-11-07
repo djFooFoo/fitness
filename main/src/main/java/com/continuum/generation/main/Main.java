@@ -1,9 +1,9 @@
-package generation.main;
+package com.continuum.generation.main;
 
 import java.util.ServiceLoader;
 
-import generation.spi.GenerationService;
-import generation.spi.Schedule;
+import com.continuum.generation.spi.GenerationService;
+import com.continuum.generation.spi.Schedule;
 
 /**
  * @author dj
