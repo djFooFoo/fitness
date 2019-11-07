@@ -16,7 +16,7 @@ public class Main {
 		ServiceLoader.load(GenerationService.class)
 				.stream()
 				.map(ServiceLoader.Provider::get)
-				.map(GenerationService::generateSchedule)
+				.map(GenerationService::generate)
 				.forEach(Main::printSchedule);
 	}
 

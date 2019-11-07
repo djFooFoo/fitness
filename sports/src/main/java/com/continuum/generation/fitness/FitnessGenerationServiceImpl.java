@@ -8,7 +8,7 @@ import com.continuum.generation.spi.Schedule;
  */
 public class FitnessGenerationServiceImpl implements GenerationService {
 	@Override
-	public Schedule generateSchedule() {
+	public Schedule generate() {
 		return new FitnessSchedule();
 	}
 }

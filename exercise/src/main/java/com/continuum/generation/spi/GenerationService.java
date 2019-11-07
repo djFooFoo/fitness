@@ -5,7 +5,8 @@ package com.continuum.generation.spi;
  */
 public interface GenerationService {
 	/**
-	 * @return the fitness schedule.
+	 * Generates a fitness schedule.
+	 * @return the schedule.
 	 */
-	Schedule generateSchedule();
+	Schedule generate();
 }
