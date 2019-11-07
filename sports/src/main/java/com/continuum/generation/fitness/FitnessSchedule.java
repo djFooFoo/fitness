@@ -14,6 +14,6 @@ public class FitnessSchedule implements Schedule {
 
 	@Override
 	public String getName() {
-		return "Running schedule from a Continuum Craft Lead";
+		return "Fitness schedule from a Continuum Craft Lead";
 	}
 }
