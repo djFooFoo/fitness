@@ -17,10 +17,10 @@ public class Main {
 				.stream()
 				.map(ServiceLoader.Provider::get)
 				.map(GenerationService::generate)
-				.forEach(Main::printSchedule);
+				.forEach(Main::print);
 	}
 
-	private static void printSchedule(Schedule schedule) {
+	private static void print(Schedule schedule) {
 		System.out.println(schedule.getName() + " with level: " + schedule.getLevel());
 	}
 
