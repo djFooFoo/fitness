@@ -1,3 +1,3 @@
-module exercise {
+module generation.exercise {
 	exports generation.spi;
 }

@@ -1,8 +1,8 @@
 import generation.fitness.FitnessFactory;
 import generation.running.RunningFactory;
 
-module sports {
-	requires exercise;
+module generation.sports {
+	requires generation.exercise;
 
 	exports generation.fitness;
 	exports generation.running;

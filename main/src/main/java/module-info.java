@@ -1,7 +1,7 @@
 import generation.spi.GenerationService;
 
-module main {
-	requires exercise;
+module generation.main {
+	requires generation.exercise;
 
 	uses GenerationService;
 }
