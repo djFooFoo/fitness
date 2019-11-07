@@ -20,7 +20,7 @@
 		</dependency>
 		<dependency>
 			<groupId>continuum.be</groupId>
-			<artifactId>bodybuilding</artifactId>
+			<artifactId>sports</artifactId>
 			<version>1.0-SNAPSHOT</version>
 			<scope>compile</scope>
 		</dependency>
